@@ -13,7 +13,7 @@
 <body>
     <!-- header starts here -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="This is our logo" class="d-inline-block align-text-top">
@@ -27,20 +27,20 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- image slider -->
-        <section class="container">
+        <section class="container mt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -120,7 +120,7 @@
         </section>
         <!-- categories ends here -->
         <!-- Shoes section starts here -->
-        <section class="container">
+        <section id="shoes" class="container">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -163,7 +163,7 @@
         </section>
         <!-- shoes section ends here -->
         <!-- backpack section starts here -->
-        <section class="container my-5">
+        <section id="backpack" class="container my-5">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -206,7 +206,7 @@
             </div>
         </section>
         <!-- subscribe section -->
-        <section style="height: 300px;" class="container bg-info d-flex align-items-center justify-content-center rounded-3">
+        <section id="subscribe" style="height: 300px;" class="container bg-info d-flex align-items-center justify-content-center rounded-3">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <p>Get updates on sales, specials and more</p>
