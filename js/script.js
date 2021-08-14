@@ -51,9 +51,21 @@ inpEnableBtn.addEventListener("input", function (event) {
 });
 
 
-// task 8: last section dblclick
+// task 8: change photo when mouse enter
+const changablePhoto = document.getElementById("change");
+
+changablePhoto.addEventListener("mouseenter", function () {
+    changablePhoto.setAttribute("src", "images/bags/bag-3.png");
+});
+
+changablePhoto.addEventListener("mouseleave", function () {
+    changablePhoto.setAttribute("src", "images/bags/bag-2.png");
+});
+
+
+// task 9: last section dblclick
 const subscribeSection = document.getElementById("subscribe");
 
 subscribeSection.addEventListener("dblclick", function () {
     subscribeSection.style.backgroundColor = "orange";
-})
+});
